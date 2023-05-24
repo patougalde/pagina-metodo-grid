@@ -1,0 +1,130 @@
+    
+body{
+    margin: 0px;
+}
+
+
+.logo{
+   display: flex;
+   align-items:left;
+    height:65px;
+    border-bottom: 5px solid hsl(0, 2%, 67%);
+    padding: 10px 0px 10px 90px;
+}
+
+#logo1{
+    height: 100px; 
+    margin-left: 0px;
+    margin-bottom: 105px;  
+}
+    
+nav{
+    text-align: right;
+    padding: 15px px 0px 0px;
+}
+
+.menu{
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 26px;
+    padding: 5px;  
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(50, 49, 49);
+    text-decoration: none;
+    }
+
+
+.contenedor *{
+    font-family: arial;
+}
+
+
+
+.contenedor{
+    width: auto;
+    height: auto;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 300px 400px;
+    grid-template-rows: 55px 45px 120px 45px;
+    grid-template-areas: "aprende aprende"
+                          "en escuelas"
+                          ".escuelas"
+                          ".cdmx";      
+    padding: 30px 380px;
+}
+
+.aprende::before{
+    content: "";
+    height: 100px;
+    width: 60px;
+    background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes//escuelasdecodigo/dist/assets/hero-vector.svg");
+    position: absolute;
+    top: -15px;
+    left: -45px;
+    background-repeat: no-repeat;
+}
+
+.aprende{
+    display: grid;
+    grid-area: aprende;
+    width: 700px;
+    height: 40px;
+    font-size: 50px;
+    font-weight: 100px;
+    position: relative;
+}
+
+.en{
+    display: grid;
+    grid-area: en;
+    width: 500px;
+    height: 30px;
+    font-family: 'Calibri';
+    font-size: 35px;
+    position:static;
+    padding: 10px 0px 0px 180px;
+}
+
+.escuelas{
+    display: grid;
+    grid-area: escuelas;
+    font-size: 80px;
+    width: 500px;
+    height: 200px;
+    padding-right: 0px;
+    position: relative;
+}
+
+.cdmx{
+    display: grid;
+    grid-area: cdmx;
+    font-size: 25px;
+    padding: 20px 100px 0px 0px;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 0px 40px 0px;
+
+
+}
+h2{
+    text-align: center;
+    color: rgb(226, 89, 40);
+    font-size: 30px;
+    margin: 0px;
+}
+.cualquier{
+    color: rgb(34, 32, 27);
+    font-size: 25px;
+    padding: 0px;
+    border: 0px;
+}
+
+
