@@ -47,7 +47,7 @@ nav{
     height: auto;
     background-image: url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
     background-repeat: no-repeat;
-    color: white;
+    color: rgb(219, 215, 215);
     background-size: cover;
     display: grid;
     grid-template-columns: 300px 400px;
